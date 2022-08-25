@@ -27,6 +27,24 @@ const DUMMY_DATA = [
         description: 'arma de fogo',
         amount: 159.99,
         date: new Date('2021-07-15')
+    },
+    {
+        id: '5',
+        description: 'tomate',
+        amount: 11.99,
+        date: new Date('2021-05-15')
+    },
+    {
+        id: '6',
+        description: 'Comida',
+        amount: 8.99,
+        date: new Date('2021-06-15')
+    },
+    {
+        id: '7',
+        description: 'arma de fogo',
+        amount: 159.99,
+        date: new Date('2021-07-15')
     }
 ]
 
@@ -42,7 +60,9 @@ export default function ExpenseOutput({  expensesPeriod }) {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        padding: 24,
+        paddingHorizontal: 24,
+        paddingTop: 24,
+        paddingBottom: 0,
         backgroundColor: GlobalStyles.colors.primary700,
 
     }
